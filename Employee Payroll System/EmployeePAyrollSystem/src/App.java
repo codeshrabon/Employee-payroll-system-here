@@ -1,15 +1,27 @@
-package Employee;
+
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import Employee.PayrollSystem;
+import Employee.Employee;
+import Employee.FullTimeEmployee;
+// import Employee.PartTimeEmployee;
+// import Employee.PayrollSystem;
+import Employee.PartTimeEmployee;
 
 
 public class App {
     public static void main(String[] args) {
+        /* PayrollSystem payrollSystem = new PayrollSystem();
+        
+
+ */
+        
         PayrollSystem payrollSystem = new PayrollSystem();
-        FUllTimeEmployee emp1 = new FUllTimeEmployee("Shrabone", 01, 45000.0);
-        PartTimeEmployee emp2 = new PartTimeEmployee("Rassell", 10, 7, 100.0);
 
-
-        //PayrollSystem paymentSystem = new Payroll
+        
+    
         payrollSystem.addEmployee(emp1);
         payrollSystem.addEmployee(emp2);
 

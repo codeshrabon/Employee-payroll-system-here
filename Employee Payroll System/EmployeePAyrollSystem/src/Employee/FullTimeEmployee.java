@@ -1,21 +1,20 @@
 package Employee;
 
-public class FullTimeEmployee {
-    class FUllTimeEmployee extends Employee {
+
+public class FullTimeEmployee extends Employee {
     private double monthlySalary;
 
-    // creating cosntructor of FullTimeEmployee
-    public FUllTimeEmployee(String name, int id, double monthlySalary) {
-        // using super keyword to excess the super-class/parent-class constructor
-        // variable
+
+    // creating constructor of FullTimeEmployee
+    public FullTimeEmployee(String name,int id, double monthlySalary) {
         super(name, id);
         this.monthlySalary = monthlySalary;
     }
+    
 
     @Override
     public double CalculateSalary() {
 
         return monthlySalary;
     }
-}
 }

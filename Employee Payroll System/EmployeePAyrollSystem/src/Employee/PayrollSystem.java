@@ -1,11 +1,9 @@
-package Employee.PayrollSystem;
+package Employee;
 
 import java.util.ArrayList;
 
-import Employee.*;
 
-
-class PayrollSystem {
+public class PayrollSystem {
     // Employee is the member of Employee class
     private ArrayList<Employee> employeeList;
 

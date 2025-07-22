@@ -1,5 +1,8 @@
 package Employee;
 
+import java.util.Arrays;
+import java.util.List;
+
 public abstract class Employee {
     private String name;
     private int id;
@@ -32,4 +35,9 @@ public abstract class Employee {
         return "Employee [name = " + name + " , id = " + id + " , salary = " + CalculateSalary() + "]";
     }
 
+    // creating a list of Employee
+    List<Employee> employeeList = Arrays.asList();
+    FullTimeEmployee emp1 = new FullTimeEmployee("Shrabone", 01, 45000.0);
+
+    PartTimeEmployee emp2 = new PartTimeEmployee("Rassell", 10, 7, 100);
 }
